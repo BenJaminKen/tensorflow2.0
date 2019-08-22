@@ -1,0 +1,15 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+pylint = "*"
+tensorflow = "==2.0.0-beta1"
+matplotlib = "*"
+sklearn = "*"
+
+[requires]
+python_version = "3.5"
